@@ -6,6 +6,13 @@ import { useLanguage } from '../contexts/LanguageContext';
 const ContactSection: React.FC = () => {
   const { t } = useLanguage();
 
+  const onSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log('Form submitted');
+    const target = e.target as HTMLFormElement;
+    console.log(target);
+  }
+
   return (
     <section id="contact" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,7 +29,7 @@ const ContactSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 bg-white rounded-xl shadow-lg p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('contact.form.send')}</h3>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={onSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
@@ -135,15 +142,11 @@ const ContactSection: React.FC = () => {
               <h4 className="font-medium text-blue-900 mb-2">{t('contact.info.businessHours')}</h4>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex justify-between">
-                  <span>Monday - Friday:</span>
-                  <span>9:00 AM - 6:00 PM</span>
+                  <span>Senin - Jumat:</span>
+                  <span>9:00 - 17:00 </span>
                 </li>
                 <li className="flex justify-between">
-                  <span>Saturday:</span>
-                  <span>10:00 AM - 2:00 PM</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>Sunday:</span>
+                  <span>Saturday - Sunday:</span>
                   <span>Closed</span>
                 </li>
               </ul>

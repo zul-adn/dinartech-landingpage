@@ -101,40 +101,40 @@ export const TESTIMONIALS = [
 export const PARTNERS = [
   {
     id: 1,
-    name: "Microsoft",
-    logo: "https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg"
+    name: "Amazon Web Services",
+    logo: "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png"
   },
   {
     id: 2,
-    name: "Google",
-    logo: "https://images.pexels.com/photos/5473302/pexels-photo-5473302.jpeg"
+    name: "Cloudflare",
+    logo: "https://download.logo.wine/logo/Cloudflare/Cloudflare-Logo.wine.png"
   },
-  {
-    id: 3,
-    name: "Amazon",
-    logo: "https://images.pexels.com/photos/5473308/pexels-photo-5473308.jpeg"
-  },
-  {
-    id: 4,
-    name: "IBM",
-    logo: "https://images.pexels.com/photos/5473321/pexels-photo-5473321.jpeg"
-  },
-  {
-    id: 5,
-    name: "Oracle",
-    logo: "https://images.pexels.com/photos/5473315/pexels-photo-5473315.jpeg"
-  },
-  {
-    id: 6,
-    name: "Intel",
-    logo: "https://images.pexels.com/photos/5473330/pexels-photo-5473330.jpeg"
-  }
+  // {
+  //   id: 3,
+  //   name: "Amazon",
+  //   logo: "https://images.pexels.com/photos/5473308/pexels-photo-5473308.jpeg"
+  // },
+  // {
+  //   id: 4,
+  //   name: "IBM",
+  //   logo: "https://images.pexels.com/photos/5473321/pexels-photo-5473321.jpeg"
+  // },
+  // {
+  //   id: 5,
+  //   name: "Oracle",
+  //   logo: "https://images.pexels.com/photos/5473315/pexels-photo-5473315.jpeg"
+  // },
+  // {
+  //   id: 6,
+  //   name: "Intel",
+  //   logo: "https://images.pexels.com/photos/5473330/pexels-photo-5473330.jpeg"
+  // }
 ];
 
 export const CONTACT = {
-  email: "info@dinartech.com",
-  phone: "+62 21 1234 5678",
-  address: "Jl. Teknologi Utama No. 123, Jakarta, Indonesia",
+  email: "admin@dinar-tech.com",
+  phone: "+62 857 0547 7252",
+  address: "Cendana Raya, Seungai Raya Dalam Kubu Raya",
   social: {
     twitter: "https://twitter.com/dinartech",
     linkedin: "https://linkedin.com/company/dinartech",
